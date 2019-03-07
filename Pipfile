@@ -5,9 +5,9 @@ name = "pypi"
 
 [packages]
 Flask = "==0.12.1"
+gunicorn = "*"
 
 [dev-packages]
-gunicorn = "*"
 
 [requires]
 python_version = "3.7"
