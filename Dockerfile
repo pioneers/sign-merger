@@ -1,6 +1,7 @@
 FROM tiangolo/uwsgi-nginx-flask:python3.7
 
-EXPOSE 443
+ENV LISTEN_PORT 80
+EXPOSE 80
 
 COPY . /app
 WORKDIR /app
