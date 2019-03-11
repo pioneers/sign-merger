@@ -1,6 +1,6 @@
 FROM tiangolo/uwsgi-nginx-flask:python3.7
 
-EXPOSE 80
+EXPOSE 443
 
 COPY . /app
 WORKDIR /app
